@@ -15,4 +15,4 @@ CSS é uma sigla que significa "folhas de estilo em cascata", e possui 3 formas 
 
 ### Inline
 
-O CSS é aplicado diretamente em cada tag HTML.
+O CSS é aplicado diretamente em cada tag HTML. .
