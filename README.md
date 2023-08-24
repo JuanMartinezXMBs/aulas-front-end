@@ -34,3 +34,5 @@ regras criadas com seletor tipo tag são mais generalista, ou seja, a formataç�
 ### CLASSE
 
 Regras crias com o seletor Classe são mais versáteis, ou seja, você DEV determina onde aplicar a classe e sua formatação.
+
+Classes podem ser reutilizadas na mesma página e combinadas com outras clases.
