@@ -16,3 +16,9 @@ CSS é uma sigla que significa "folhas de estilo em cascata", e possui 3 formas 
 ### Inline
 
 O CSS é aplicado diretamente em cada tag HTML.
+
+### Interna ou OnPage (na Página)
+
+O CSS é criado usando regras (com seletores, propriedades e valores) dentro da pópia página que queremos criar.
+
+As regras vão valer para todas as tags/elementos desta página.
