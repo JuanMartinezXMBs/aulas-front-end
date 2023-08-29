@@ -6,7 +6,7 @@ body {
 }
 
 #container {
-    background-color: #180E4F;
+    background: linear-gradient(180deg, rgb(33, 34, 121) 0%, rgba(0,18,94,0.8827906162464986) 100%);
     width: 80%;
     margin: auto;
     box-shadow: inset white 0 0 7px;
@@ -40,4 +40,26 @@ h2 {
 /*  Grupo de seletores */
 h3, p, figcaption {
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    background: linear-gradient(
+                rgb(225, 250, 1), 
+                rgb(153, 127, 12)
+    );
+}/* "to rigt" dentro do linear-gradient direção das do gradiente das cores */
+
+.destaque{
+    background-color: white;
+    padding: 3px;
+    color: black;
+    border-radius: 4px;
+}
+
+nav {
+    background: radial-gradient(circle, rgb(240, 216, 5) 0%, rgb(117, 116, 25) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 5px;
+    display: inline-block;
 }
