@@ -73,3 +73,6 @@ nav {
     border: solid 5px;
     display: inline-block;
 }
+
+/* Seletor descendente  */
+p a {color: red;}
