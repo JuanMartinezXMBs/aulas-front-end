@@ -1,0 +1,36 @@
+/* Nesse arquivo, faremos TODAS as REGRAS css necessárias para a formatação do site. */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../imagens/oriental-tiles.png);
+}
+
+#container {
+    background-color: #180E4F;
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    box-shadow: white 0 0 5px;
+    padding: 16px;
+    border-radius: 40px;
+    color: white;
+}
+
+h1 { 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {font-size: 50px;}
+
+h3 {font-size: 25px;}
+
+nav {
+    font-size: 25px;
+    background-color: whitesmoke;
+}
+
+/* Desafio: aplique as seguintes propiredades:
+- borda em todos os lados, na cor que quiser
+- sombra (na cor que quiser) no bloco virada para dentro
+- coloque o texto no meio
+- letras maiusculas */
