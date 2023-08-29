@@ -56,8 +56,18 @@ h3 {
     border-radius: 4px;
 }
 
+/* orgfanizando a imagem dentro da TAG figure */
+figure{
+    margin: 0;
+    text-align: center;
+}
+/* TAG para organizar todas as imagens, sem estourar, tornar responsivas */
+img{
+    max-width: 100%;
+}
+
 nav {
-    background: radial-gradient(circle, rgb(240, 216, 5) 0%, rgb(117, 116, 25) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    background: radial-gradient(circle, rgb(240, 216, 5) 0%, rgb(117, 116, 25) 100%);
     padding-left: 10px;
     padding-right: 10px;
     border: solid 5px;
