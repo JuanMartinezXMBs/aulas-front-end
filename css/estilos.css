@@ -23,6 +23,10 @@ body {
 - letras maiusculas ok */
 
 h1 {
+    animation: caindo;
+    animation-duration: 3s;
+
+    background: linear-gradient(100deg, rgb(33, 34, 121) 0%, rgba(0,18,94,0.8827906162464986) 100%);
     text-transform: uppercase;
     text-align: center;
     border-radius: 40px;
@@ -154,7 +158,10 @@ figure img:hover {
 
 @keyframes caindo {
     /* como começa */
-    from { transform: translatey(-100px); }
+    from { 
+        transform: translatey(-100px);
+        opacity: 0; 
+    }
 
     /* como termina */
     to { transform: translatey(0); }
