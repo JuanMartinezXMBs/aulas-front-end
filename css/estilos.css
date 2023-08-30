@@ -124,10 +124,26 @@ nav a:last-child {
     border-bottom-right-radius: 8px;
 }
 
+/* Regra para o estado do link acuionado */
 nav a:hover, nav a:focus {
     background-image: url(../imagens/double-bubble-dark.png);
     color: yellow;
 }
 
-/* Regra para o estado do link acuionado */
+.linkativo {
+    background-image: url(../imagens/double-bubble-dark.png);
+    color: yellow;
+}
 
+figure img {
+    transition: 0.5s;
+    filter: grayscale();
+    /* clip-path: circle(23.9% at 0 50%); */
+    transform: scale(0.8);
+}
+
+figure img:hover {
+    filter: none;
+    /* clip-path: circle(72.7% at 51% 51%); */
+    transform: scale(1);
+}
