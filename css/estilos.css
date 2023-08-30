@@ -110,7 +110,9 @@ nav a {
                 rgb(153, 127, 12));
     width: 50%;
     display: inline-block;
-    
+    padding: 10px;
+    /* Alterando o box model fazendo com que o padding e o border não altere nas dimensão fineis do elemento! */
+    box-sizing: border-box;
 }
 
 /* Regra para o estado do link acuionado */
