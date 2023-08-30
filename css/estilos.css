@@ -136,14 +136,26 @@ nav a:hover, nav a:focus {
 }
 
 figure img {
-    transition: 0.5s;
+    transition: 0.8s;
     filter: grayscale();
     /* clip-path: circle(23.9% at 0 50%); */
+    /* transform: scale(1); */
     transform: scale(0.8);
 }
 
 figure img:hover {
     filter: none;
     /* clip-path: circle(72.7% at 51% 51%); */
-    transform: scale(1);
+    /* transform: scale(0.9) */
+    transform: scale(1) /*rotate(360deg); */
+}
+
+/* Regras de animação */
+
+@keyframes caindo {
+    /* como começa */
+    from { transform: translatey(-100px); }
+
+    /* como termina */
+    to { transform: translatey(0); }
 }
