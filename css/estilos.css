@@ -1,0 +1,78 @@
+/* Nesse arquivo, faremos TODAS as REGRAS css necessárias para a formatação do site. */
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../imagens/oriental-tiles.png);
+}
+
+#container {
+    background: linear-gradient(180deg, rgb(33, 34, 121) 0%, rgba(0,18,94,0.8827906162464986) 100%);
+    width: 80%;
+    margin: auto;
+    box-shadow: inset white 0 0 7px;
+    padding: 16px;
+    border-radius: 40px;
+    color: white;
+}
+
+/* Desafio: aplique as seguintes propiredades:
+- borda em todos os lados, na cor que quiser ok
+- sombra (na cor que quiser) no bloco virada para dentro OK
+- coloque o texto no meio ok
+- letras maiusculas ok */
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 40px;
+    box-shadow: inset white 0 0 5px;
+    border: rgb(211, 197, 5) solid;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2 {
+    padding-left: 10px;
+    font-size: 20px;
+    border-bottom: solid 5px;
+    border-left: solid 5px;
+}
+
+/*  Grupo de seletores */
+h3, p, figcaption {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h3 {
+    background: linear-gradient(
+                rgb(225, 250, 1), 
+                rgb(153, 127, 12)
+    );
+}/* "to rigt" dentro do linear-gradient direção das do gradiente das cores */
+
+.destaque{
+    background-color: white;
+    padding: 3px;
+    color: black;
+    border-radius: 4px;
+}
+
+/* orgfanizando a imagem dentro da TAG figure */
+figure{
+    margin: 0;
+    text-align: center;
+}
+/* TAG para organizar todas as imagens, sem estourar, tornar responsivas */
+img{
+    max-width: 100%;
+}
+
+nav {
+    background: radial-gradient(circle, rgb(240, 216, 5) 0%, rgb(117, 116, 25) 100%);
+    padding-left: 10px;
+    padding-right: 10px;
+    border: solid 5px;
+    display: inline-block;
+}
+
+/* Seletor descendente  */
+p a {color: red;}
