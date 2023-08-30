@@ -69,13 +69,13 @@ img{
     max-width: 100%;
 }
 
-nav {
+/*nav {
     background: radial-gradient(circle, rgb(240, 216, 5) 0%, rgb(117, 116, 25) 100%);
     padding-left: 10px;
     padding-right: 10px;
     border: solid 5px;
     display: inline-block;
-}
+}*/
 
 /* Seletor descendente  */
 p a {color: red;}
@@ -94,3 +94,23 @@ li::marker{
     content: "💻 "; /*win+ponto = emojis*/
     font-size: 30px;
 }
+
+/* Regras para MENU */
+
+nav { text-align: center;}
+
+/* Regras para o estado inicial do link */
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    background: linear-gradient(
+                rgb(225, 250, 1), 
+                rgb(153, 127, 12));
+    width: 50%;
+    display: inline-block;
+    
+}
+
+/* Regra para o estado do link acuionado */
