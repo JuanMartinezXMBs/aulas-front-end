@@ -3,6 +3,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-image: url(../imagens/oriental-tiles.png);
+    background-attachment: fixed;
 }
 
 #container {
@@ -43,6 +44,8 @@ h3, p, figcaption {
 }
 
 h3 {
+    border-radius: 10px;
+    padding: 10px;
     background: linear-gradient(
                 rgb(225, 250, 1), 
                 rgb(153, 127, 12)
@@ -76,3 +79,18 @@ nav {
 
 /* Seletor descendente  */
 p a {color: red;}
+
+ul {padding: 55px;}
+
+li {
+    list-style-type: square;
+    /*ist-style-image: url(../imagens/fundo03.gif)
+    colocar imagens do "ponto" da lista*/
+    line-height: 40px;
+}
+
+/* Seletor pseudo-elemento (usa 2x os dois pontos ::) */
+li::marker{
+    content: "💻 "; /*win+ponto = emojis*/
+    font-size: 30px;
+}
