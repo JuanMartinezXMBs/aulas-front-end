@@ -51,3 +51,4 @@ Regras compostas por outros seletores, útil quando objetivo é aplicar uma mesm
 
 #### Descente
 Regras para formatação de elementtos que estão dentro de outros elementos, permitindo assim um grau maior de precisão ou especificação.
+

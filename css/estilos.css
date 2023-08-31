@@ -89,6 +89,8 @@ img{
 
 /* /////////////////////////////////////////////////////////////////////////////////////////// */
 
+/* colocar ">" é usado dentro de uma descendencia para especificar uma outra tag */
+
  /* Seletor descendente  */
 p a {color: red;}
 
@@ -104,7 +106,7 @@ li {
 /* Seletor pseudo-elemento (usa 2x os dois pontos ::) */
 li::marker{
     content: "💻 "; /*win+ponto = emojis*/
-    ont-size: 30px;
+    font-size: 20px;
 }
 
 /* pseudo-classe child: 
