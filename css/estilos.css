@@ -9,6 +9,10 @@ body {
 #container {
     background: linear-gradient(180deg, rgb(33, 34, 121) 0%, rgba(0,18,94,0.8827906162464986) 100%);
     width: 80%;
+    /* propriedade para limites maximos e minimos */
+    max-width: 500px;
+    min-width: 200px;
+    /* ////////////////////////////////////////// */
     margin: auto;
     box-shadow: inset white 0 0 7px;
     padding: 16px;

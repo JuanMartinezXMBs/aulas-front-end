@@ -7,9 +7,10 @@ html, body, .container {
 }
 
 .container {
-  padding:150px;
+  position: relative;
   background: #2F2F31;
-  
+  width: 100%;
+  margin: 0;
 }
 
 #navMenu {
