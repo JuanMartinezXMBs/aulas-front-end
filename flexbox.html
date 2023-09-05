@@ -25,9 +25,16 @@
         /* Flex container */
         .cards {
             display: flex;
-            justify-content: space-around;
+
+            /*atenção a usar direções diferentes pois os exios vão mudar o comportamento das propriedades,inverter o justify com aling*/
+            flex-direction: row;
+
+            justify-content: space-evenly; /*alinhamneto horizontal*/
+            align-items: center; /*alinhamneto vertical */
 
             width: 80%;
+            height: 400px;
+
             margin: auto;
             /* gap: 12px; */
             background-color: aqua;
