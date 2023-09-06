@@ -4,6 +4,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Layout responsivo</title>
+    
+<style>
+    /* regras de uso geral */
+     * { box-sizing: border-box; }
+     
+     body {
+        font-family: 'Franklin Gothic Medium';
+        background-color: aqua;
+     }
+
+     .container {
+        background-color: rgb(168, 216, 216);
+        box-shadow: black 0 0 5px;
+        padding: 5px;
+     }
+
+     h1, h2, p {
+        margin: 0;
+        padding: 0;
+     }
+    /* o primeiro valor pra cima e pra baixo, segundo valor laterais */
+     p { padding: 5px 0;}
+
+     h1 { background-color: blueviolet;}
+
+     nav { background-color: orange;}
+
+     article { padding: 8px;}
+
+     #colunaA {background-color: brown;}
+     
+     #colunaB {background-color: chartreuse;}
+     
+     #colunaC {background-color: crimson;}
+
+     footer {
+        background-color: darkgreen;
+        height: 100px;
+     }
+
+     /* Regras de uso condicionais (Media Queries) */
+     @media screen and (min-width: 525px ) {
+        header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        h1 {width: 40%;}
+        nav {
+            width: 60%;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+     }
+
+     @media screen and (min-width: 750px) {
+        #colunaA {width: 70%;}
+        #colunaB {width: 30%;}
+        #colunaC {width: 100%;}
+
+        main {
+            display: flex;
+
+            /* flex-warp quando habilitado faz com que os elementos sejam "quebrados" para a linha de baixo caso não haja espaço. */
+            flex-wrap: wrap;
+        }
+     }
+
+     @media screen and (min-width: 1080px) {
+
+        .container {
+            margin: auto;
+            max-width: 1080px;
+        }
+
+        header {
+            background-color: blueviolet;
+            padding-top: 20px;
+            padding-bottom: 20px;
+        }
+
+        #colunaA, #colunaB, #colunaC {width: 33%;}
+
+        main {
+            /* gap: 20px; alguns navegadores antigos podem não aceitar */
+            flex-wrap: nowrap;
+            justify-content: space-between;
+        }
+     }
+
+ </style>
+
 </head>
 
 <body>
